@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+     <!-- Optional theme -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+
+  </head>
+  <body>
+
+    <div class = "container">
+      <h1>Bagels</h1>
+      
+      <form id = "bagelForm">
+        <div class = "form-group">
+          <label for="guess">Enter three unique digits:</label>
+          <input id="guess" type="text" class="form-control" />
+        </div>
+        <button id = "guessButton" type = "button" class="btn btn-primary">Guess</button>
+      </form>
+
+      <table class = "table table-striped">
+        <thead>
+          <th>Guess</th>
+          <th>Hint</th>
+        </thead>
+        <tbody id = "table"><tbody>
+      </table>
+
+      <button id = "reloadButton" type = "button" class = "btn btn-danger">Reload game</button>
+
+    </div>
+
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src = "bagels.js"></script>
+  </body>
+</html>
